@@ -12,7 +12,7 @@ Tree.prototype.DFSelect = function (filter) {
     }
     node.children.forEach(child => {
       recurse(child, level + 1)
-    }
+    })
   }
 	recurse(this,0);
 	return result;
